@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,96 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.goalInput {
+  text-align: center;
+  width:50%;
+  margin-left:25%;
+  margin-top: 15vh;
+}
+
+.formInput{
+  display: flex;
+  width:100%;
+  flex-direction: column;
+  height: 50vh;
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 5%;
+}
+.goalInput input{
+  width:50%;
+  margin-left: 25%;
+  line-height: 40px;
+  font-weight: 600;
+  margin-top: 5%;
+}
+.goalInput button{
+  width:50%;
+  margin-left: 25%;
+  line-height: 40px;
+  font-weight: 600;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+.button{
+  width:50%;
+  margin-left: 25%;
+  line-height: 40px;
+  font-weight: 600;
+  margin-top: 5%;
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: tomato;
+  color: white;
+  border-radius: 15px;
+}
+
+.Home{
+  width:80%;
+  margin-left: 10%;
+ 
+}
+table{
+  margin-top: 10%;
+  width: 100%;
+  border-radius: 40px;
+ 
+  text-align: center;
+  border-collapse: collapse;
+  background-color:wheat;
+  
+}
+td{
+  border: 1px solid white;
+}
+
+
+.addTransaction{
+  width:100%;
+  text-align: center;
+  
+
+
+}
+.addTransaction input{
+  width:40%;
+  line-height: 30px;
+  text-align: center;
+  
+  
+}
+.addTransaction button{
+  margin-left: 5%;
+  width:30%;
+  line-height: 30px;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: large;
+ 
+  
+}
+p{
+  color: red;
 }
