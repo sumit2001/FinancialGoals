@@ -55,6 +55,9 @@ class Item extends Component {
             }
 
             axios.post("http://localhost:8080/addTransaction", data)
+            this.setState({
+                transaction:null
+            })
 
         }
         else{
